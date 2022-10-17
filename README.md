@@ -15,3 +15,19 @@ Learning Trigger
 # Where Apex is not necessary
 
 When Workflow rules, Process Builder, Flows, Validation rules  and  Duplicate rules can do the job, APEX is not reuired.
+
+#Trigger Events
+
+Trigger logic can be called in below events
+
+1. Before Insert
+2. AfterInsert
+3. Before Update
+4. After Update
+5. Before Delete
+6. After Delete
+7. After Undelete
+
+# Order of Execution
+
+Before Insert(Flow) -> Before Insert(APEX Trigger) -> Insert -> After Insert(APEX Trigger) -> Workflows -> Process Builder -> After Insert (Flow) -> Commit
