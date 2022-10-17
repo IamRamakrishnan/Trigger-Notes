@@ -31,3 +31,12 @@ Trigger logic can be called in below events
 # Order of Execution
 
 Before Insert(Flow) -> Before Insert(APEX Trigger) -> Insert -> After Insert(APEX Trigger) -> Workflows -> Process Builder -> After Insert (Flow) -> Commit
+
+# When Before Insert
+
+Populate field of same record
+Custom Validation & Throw Error
+(No extra  DML reuired)
+
+# When After Insert
+
