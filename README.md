@@ -40,3 +40,6 @@ Custom Validation & Throw Error
 
 # When After Insert
 
+Update any other record objects
+Action(Sending Emails, Calling External Systems)
+When System Fields of current record is required to do some operations
